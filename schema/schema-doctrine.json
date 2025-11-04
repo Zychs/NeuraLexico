@@ -1,0 +1,15 @@
+{
+  "object_type": "doctrine",
+  "doctrine_id": "base_doctrine",
+  "title": "Doctrine Schema for Intentional Systems",
+  "axioms": [
+    "Intention must be expressible, executable, and evidential.",
+    "All doctrines are reflections of will structured through translation."
+  ],
+  "schema_fields": {
+    "intent": "declared purpose of will",
+    "translation": "method of expression",
+    "ledger_trace": "expected evidence of manifestation"
+  },
+  "validation_protocol": "proof_of_alignment"
+}

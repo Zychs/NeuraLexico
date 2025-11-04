@@ -1,0 +1,75 @@
+{
+  "$schema": "./ledgar-base.schema.json",
+  "meta": {
+    "ledger_name": "Neurialab Visual–Semantic Ledger",
+    "version": "1.0",
+    "author": "Justin Bardwell / Neurialab",
+    "last_updated": "2025-10-20T18:10-05:00"
+  },
+  "aesthetic_dna": {
+    "palette": {
+      "primaries": ["#C69C47", "#2E1F10", "#101010"],
+      "accents": ["#2A4E74", "#90541D", "#E4B86A"],
+      "luminosity_curve": "soft exponential decay (L≈0.7→0.1)"
+    },
+    "texture_profile": {
+      "grain_density": "low",
+      "paper_fiber_style": "aged parchment",
+      "bloom": "subtle gold diffusion",
+      "noise_type": "glyphic stochastic"
+    },
+    "geometry_signature": {
+      "dominant_forms": ["circle", "spiral", "triad", "ouroboros loop"],
+      "angle_bias": "multiples of 12°",
+      "symmetry_type": "radial quasi-symmetric"
+    },
+    "lighting_field": {
+      "base_illumination": "warm underlight",
+      "highlight_color": "#F3D38A",
+      "shadow_color": "#1B1006",
+      "gradient_flow": "left→right slow drift"
+    },
+    "animation_intent": {
+      "motion_archetype": "breathing oscillation",
+      "loop_duration": "24s",
+      "depth_shift": "0.02 parallax"
+    }
+  },
+  "semantic_tags": [
+    {
+      "tag": "Resonance",
+      "class": "Pillar",
+      "visual_pair": "concentric_wave",
+      "meaning": "alignment of inner and outer cognition"
+    },
+    {
+      "tag": "Translation",
+      "class": "Pillar",
+      "visual_pair": "tri-link_transmutation",
+      "meaning": "conversion of raw experience into articulated form"
+    },
+    {
+      "tag": "Distillation",
+      "class": "Pillar",
+      "visual_pair": "vessel_emit",
+      "meaning": "refinement of chaos into clarity"
+    },
+    {
+      "tag": "Negentropy",
+      "class": "Pillar",
+      "visual_pair": "inward_spiral_feather",
+      "meaning": "conscious ordering against decay"
+    },
+    {
+      "tag": "Rebirth",
+      "class": "Pillar",
+      "visual_pair": "ouroboric_phoenix",
+      "meaning": "emergence of a higher operational state"
+    }
+  ],
+  "integration": {
+    "tag_ledger_path": "neurialab/core/tag_ledger.json",
+    "overlay_batch_path": "neurialab/stream/pillars_batch_01/",
+    "glyphic_noise_bg": "neurialab/stream/substrate_codex_depthfield.png"
+  }
+}
