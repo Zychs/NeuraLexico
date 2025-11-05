@@ -21,7 +21,8 @@ Addvar-style voice-driven journaling, memory tagging, and symbolic execution pip
 - [x] Legacy Java CLI archived under `/legacy`
 - [x] Voice interface scaffold added (`whisper-pipeline.py`, etc.)
 - [x] Reference diagrams imported to `/docs`
-- [ ] Core Addvar memory engine (in progress)
+- [ ] Establish Core Addvar memory engine (in progress)
+- [ ] Establish Phonetic & Paralinguistic Data Accessibility
 - [ ] Ledger + semantic tagging pipeline (next milestone)
 
 ---
@@ -60,6 +61,7 @@ Voice interface scaffolding lives under:
 ✔️ Shows you're actively building (huge green flag to employers)
 
 ---
+
 
 
 
